@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'jhe_esv2typo3'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_dam.tx_jheesv2typo3_publishing_house">Publishing house</label>
+			<label index="tx_dam.tx_jheesv2typo3_place_publishing">Place of publishing</label>
+			<label index="tx_dam.tx_jheesv2typo3_doiprefix">doipraefix</label>
+			<label index="tx_dam.tx_jheesv2typo3_doklink">Document link</label>
+			<label index="tx_dam.tx_jheesv2typo3_contenttype">Content type</label>
+			<label index="tx_dam.tx_jheesv2typo3_field_of_reference">Field of reference</label>
+			<label index="tx_dam.tx_jheesv2typo3_state_of_law">State of law</label>
+			<label index="tx_dam.tx_jheesv2typo3_field_of_law">Field of law</label>
+			<label index="tx_dam.tx_jheesv2typo3_name_of_law">Name of law</label>
+			<label index="tx_dam.tx_jheesv2typo3_short_name_of_law">Short name of law</label>
+			<label index="tx_dam.tx_jheesv2typo3_abbreviation_of_law">Abbreviation of law</label>
+			<label index="tx_dam.tx_jheesv2typo3_date_of_issue">date of issue</label>
+			<label index="tx_dam.tx_jheesv2typo3_source_of_proclamation">Source of proclamation</label>
+			<label index="tx_dam.tx_jheesv2typo3_modification_date">Modification date</label>
+			<label index="tx_dam.tx_jheesv2typo3_source_of_modification">Source of modification</label>
+			<label index="tx_dam.tx_jheesv2typo3_modification_publication_date">Modification publication date</label>
+			<label index="tx_dam.tx_jheesv2typo3_commencement">Commencement</label>
+			<label index="tt_content.list_type_pi1">ESV Literature</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_dam.tx_jheesv2typo3_publishing_house">Verlagsname</label>
+			<label index="tx_dam.tx_jheesv2typo3_place_publishing">Verlagsort</label>
+			<label index="tx_dam.tx_jheesv2typo3_doiprefix">doipraefix</label>
+			<label index="tx_dam.tx_jheesv2typo3_doklink">Dokument-Link</label>
+			<label index="tx_dam.tx_jheesv2typo3_contenttype">Inhaltstyp</label>
+			<label index="tx_dam.tx_jheesv2typo3_field_of_reference">Sachgebiet</label>
+			<label index="tx_dam.tx_jheesv2typo3_state_of_law">Gesetzstatus</label>
+			<label index="tx_dam.tx_jheesv2typo3_field_of_law">Rechtsbebiet</label>
+			<label index="tx_dam.tx_jheesv2typo3_name_of_law">Gesetzbezeichnung</label>
+			<label index="tx_dam.tx_jheesv2typo3_short_name_of_law">Gesetzkurzname</label>
+			<label index="tx_dam.tx_jheesv2typo3_abbreviation_of_law">Gesetzabkürzung</label>
+			<label index="tx_dam.tx_jheesv2typo3_date_of_issue">Ausfertigungsdatum</label>
+			<label index="tx_dam.tx_jheesv2typo3_source_of_proclamation">Verkündigungsfundstelle</label>
+			<label index="tx_dam.tx_jheesv2typo3_modification_date">Änderungsdatum</label>
+			<label index="tx_dam.tx_jheesv2typo3_source_of_modification">Änderungsfundstelle</label>
+			<label index="tx_dam.tx_jheesv2typo3_modification_publication_date">Änderungspublikationsdatum</label>
+			<label index="tx_dam.tx_jheesv2typo3_commencement">Inkrafttreten</label>
+			<label index="tt_content.list_type_pi1">ESV Literatur</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;web_txjheesv2typo3M1&quot; - header, description</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mlang_tabs_tab">Erich Schmidt Verlag</label>
+			<label index="mlang_labels_tabdescr">Imports meta data from ESV (Erich Schmidt Verlag) into TYPO3 for further usage with dam</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="mlang_tabs_tab">Erich Schmidt Verlag</label>
+			<label index="mlang_labels_tabdescr">Importiert Metadaten des ESV (Erich Schmidt Verlag) nach TYPO3 zur Nutzung mit DAM.</label>
+		</languageKey>
+	</data>
+</T3locallang>
