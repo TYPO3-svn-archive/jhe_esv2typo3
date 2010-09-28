@@ -13,10 +13,11 @@
 			<label index="tx_dam.tx_jheesv2typo3_contenttype">Content type</label>
 			<label index="tx_dam.tx_jheesv2typo3_field_of_reference">Field of reference</label>
 			<label index="tx_dam.tx_jheesv2typo3_state_of_law">State of law</label>
-			<label index="tx_dam.tx_jheesv2typo3_field_of_law">Field of law</label>
+			<label index="tx_dam.tx_jheesv2typo3_area_of_validity">Area of validity</label>
 			<label index="tx_dam.tx_jheesv2typo3_name_of_law">Name of law</label>
 			<label index="tx_dam.tx_jheesv2typo3_short_name_of_law">Short name of law</label>
 			<label index="tx_dam.tx_jheesv2typo3_abbreviation_of_law">Abbreviation of law</label>
+                        <label index="tx_dam.tx_jheesv2typo3_field_of_law">Field of law</label>
 			<label index="tx_dam.tx_jheesv2typo3_date_of_issue">date of issue</label>
 			<label index="tx_dam.tx_jheesv2typo3_source_of_proclamation">Source of proclamation</label>
 			<label index="tx_dam.tx_jheesv2typo3_modification_date">Modification date</label>
@@ -33,10 +34,11 @@
 			<label index="tx_dam.tx_jheesv2typo3_contenttype">Inhaltstyp</label>
 			<label index="tx_dam.tx_jheesv2typo3_field_of_reference">Sachgebiet</label>
 			<label index="tx_dam.tx_jheesv2typo3_state_of_law">Gesetzstatus</label>
-			<label index="tx_dam.tx_jheesv2typo3_field_of_law">Rechtsbebiet</label>
+                        <label index="tx_dam.tx_jheesv2typo3_area_of_validity">Gültigkeitsbereich</label>
 			<label index="tx_dam.tx_jheesv2typo3_name_of_law">Gesetzbezeichnung</label>
 			<label index="tx_dam.tx_jheesv2typo3_short_name_of_law">Gesetzkurzname</label>
 			<label index="tx_dam.tx_jheesv2typo3_abbreviation_of_law">Gesetzabkürzung</label>
+                        <label index="tx_dam.tx_jheesv2typo3_field_of_law">Rechtsbebiet</label>
 			<label index="tx_dam.tx_jheesv2typo3_date_of_issue">Ausfertigungsdatum</label>
 			<label index="tx_dam.tx_jheesv2typo3_source_of_proclamation">Verkündigungsfundstelle</label>
 			<label index="tx_dam.tx_jheesv2typo3_modification_date">Änderungsdatum</label>

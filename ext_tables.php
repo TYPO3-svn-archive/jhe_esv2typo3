@@ -78,9 +78,9 @@ $tempColumns = array (
 			'eval' => 'trim',
 		)
 	),
-	'tx_jheesv2typo3_field_of_law' => array (		
+	'tx_jheesv2typo3_area_of_validity' => array (
 		'exclude' => 0,		
-		'label' => 'LLL:EXT:jhe_esv2typo3/locallang_db.xml:tx_dam.tx_jheesv2typo3_field_of_law',		
+		'label' => 'LLL:EXT:jhe_esv2typo3/locallang_db.xml:tx_dam.tx_jheesv2typo3_area_of_validity',
 		'config' => array (
 			'type' => 'input',	
 			'size' => '30',	
@@ -111,6 +111,15 @@ $tempColumns = array (
 		'config' => array (
 			'type' => 'input',	
 			'size' => '30',	
+			'eval' => 'trim',
+		)
+	),
+        'tx_jheesv2typo3_field_of_law' => array (
+		'exclude' => 0,
+		'label' => 'LLL:EXT:jhe_esv2typo3/locallang_db.xml:tx_dam.tx_jheesv2typo3_field_of_law',
+		'config' => array (
+			'type' => 'input',
+			'size' => '30',
 			'eval' => 'trim',
 		)
 	),

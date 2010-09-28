@@ -1,0 +1,14 @@
+# cat=basic; type=string; label=Storage folder with literature data
+litaretureMainFolder =
+
+# cat=basic; type=string; label=FTP Host
+ftpHost =
+
+# cat=basic; type=string; label=FTP Folder with the downloadable zipped xml files
+ftpFolder =
+
+# cat=basic; type=string; label=FTP User
+ftpUser =
+
+# cat=basic; type=string; label=FTP Password
+ftpPassword = 

@@ -24,7 +24,14 @@
 /**
  * [CLASS/FUNCTION INDEX of SCRIPT]
  *
- * Hint: use extdeveval to insert/update function index above.
+ *
+ *
+ *   47: class tx_jheesv2typo3_pi1 extends tslib_pibase
+ *   60:     function main($content, $conf)
+ *
+ * TOTAL FUNCTIONS: 1
+ * (This index is automatically created/updated by the extension "extdeveval")
+ *
  */
 
 require_once(PATH_tslib.'class.tslib_pibase.php');
@@ -42,25 +49,25 @@ class tx_jheesv2typo3_pi1 extends tslib_pibase {
 	var $scriptRelPath = 'pi1/class.tx_jheesv2typo3_pi1.php';	// Path to this script relative to the extension dir.
 	var $extKey        = 'jhe_esv2typo3';	// The extension key.
 	var $pi_checkCHash = true;
-	
+
 	/**
 	 * The main method of the PlugIn
 	 *
 	 * @param	string		$content: The PlugIn content
 	 * @param	array		$conf: The PlugIn configuration
-	 * @return	The content that is displayed on the website
+	 * @return	The		content that is displayed on the website
 	 */
 	function main($content, $conf) {
 		$this->conf = $conf;
 		$this->pi_setPiVarDefaults();
 		$this->pi_loadLL();
-		
-	
+
+
 		$content='
 			<strong>This is a few paragraphs:</strong><br />
 			<p>This is line 1</p>
 			<p>This is line 2</p>
-	
+
 			<h3>This is a form:</h3>
 			<form action="'.$this->pi_getPageLink($GLOBALS['TSFE']->id).'" method="POST">
 				<input type="text" name="'.$this->prefixId.'[input_field]" value="'.htmlspecialchars($this->piVars['input_field']).'">
@@ -69,7 +76,7 @@ class tx_jheesv2typo3_pi1 extends tslib_pibase {
 			<br />
 			<p>You can click here to '.$this->pi_linkToPage('get to this page again',$GLOBALS['TSFE']->id).'</p>
 		';
-	
+
 		return $this->pi_wrapInBaseClass($content);
 	}
 }
