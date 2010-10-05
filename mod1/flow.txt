@@ -1,0 +1,26 @@
+Steps to follow:
+
+1. FTP-Connection öffnen
+2. passende Zip-Datei identifizieren
+3. passende Zip-Datei vom FTP-Server kopieren nach /data
+4. Backup-Datei erstellen in /data/backup
+5. Zip-Datei entzippen (neuer Ordner findet sich in der Zip-Datei)
+6. entzippten Ordnernamen speichern für weitere Nutzung
+7. in der DB existierende identNo zum späteren Vergleich in ein Array schreiben
+
+für jede Datei im entzippten Ordner
+8. checken, ob xml-Datei -> wenn nicht, direkt löschen und loggen
+9. Dateiinhalte in ein Array überführen
+10. Array-Keys auf die Tabellen-Felder mappen
+11. Wenn array[ident] in DB vorhanden ist -> Update des Datensatzes
+12. Wenn array[ident] nicht in DB vorhanden ist -> Insert des Datensatzes
+13. Nach DBAction identNo in Array schreiben
+14. xml-Datei verschieben in /data/done/Verzeichnis
+15. Löschen der Datei in /data/Verzeichnis
+
+16. Configuration auslesen: Full-Import / Delta-Import
+17. Wenn Full-Import: Vergleich array usedInDbAction mit array vorhandeneDate, schnittmenge löschen, bei verbleibenden deleted=1 setzen
+
+18. Verzeichnis löschen, wenn leer
+19. Im FTP-Verzeichnis Zip-Datei löschen
+20. FTP-Connection schließen

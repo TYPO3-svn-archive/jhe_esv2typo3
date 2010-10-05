@@ -1,5 +1,5 @@
 # cat=basic; type=string; label=Storage folder with literature data
-litaretureMainFolder =
+literatureMainFolder =
 
 # cat=basic; type=string; label=FTP Host
 ftpHost =
@@ -11,4 +11,7 @@ ftpFolder =
 ftpUser =
 
 # cat=basic; type=string; label=FTP Password
-ftpPassword = 
+ftpPassword =
+
+# cat=basic; type=boolean; label=Delete data that is not implemented in the import file
+delete =
